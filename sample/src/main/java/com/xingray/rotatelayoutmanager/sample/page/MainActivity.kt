@@ -44,6 +44,9 @@ class MainActivity : AppCompatActivity() {
         mAdapter?.update(listOf(
             Test("rotate test") {
                 RotateRecyclerViewTestActivity.start(this)
+            },
+            Test("simple layout") {
+                SimpleLayoutTestActivity.start(this)
             }
         ))
     }

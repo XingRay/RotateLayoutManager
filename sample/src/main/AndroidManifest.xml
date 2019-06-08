@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".page.RotateRecyclerViewTestActivity"/>
+        <activity android:name=".page.SimpleLayoutTestActivity"/>
     </application>
 
 </manifest>
